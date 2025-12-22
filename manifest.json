@@ -5,25 +5,13 @@
   "icons": [
     {
       "src": "KMLim_Logo.png",
-      "sizes": "48x48",
+      "sizes": "16x16",
       "type": "image/png",
       "purpose": "any"
     },
     {
       "src": "KMLim_Logo.png",
-      "sizes": "72x72",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "KMLim_Logo.png",
-      "sizes": "96x96",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "KMLim_Logo.png",
-      "sizes": "144x144",
+      "sizes": "32x32",
       "type": "image/png",
       "purpose": "any"
     },
