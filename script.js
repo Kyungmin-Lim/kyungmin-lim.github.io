@@ -91,46 +91,6 @@ function highlightActiveSection() {
 
 window.addEventListener('scroll', highlightActiveSection);
 
-// Contact form handling
-const contactForm = document.getElementById('contactForm');
-
-if (contactForm) {
-    contactForm.addEventListener('submit', (e) => {
-        e.preventDefault();
-        
-        // Get form values
-        const name = document.getElementById('name').value;
-        const email = document.getElementById('email').value;
-        const message = document.getElementById('message').value;
-        
-        // Simple validation
-        if (!name || !email || !message) {
-            alert('모든 필드를 입력해주세요.');
-            return;
-        }
-        
-        // Email validation
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        if (!emailRegex.test(email)) {
-            alert('올바른 이메일 주소를 입력해주세요.');
-            return;
-        }
-        
-        // Simulate form submission
-        const submitButton = contactForm.querySelector('button[type="submit"]');
-        const originalText = submitButton.textContent;
-        submitButton.textContent = '전송 중...';
-        submitButton.disabled = true;
-        
-        // Simulate API call
-        setTimeout(() => {
-            alert('메시지가 성공적으로 전송되었습니다!');
-            contactForm.reset();
-            submitButton.textContent = originalText;
-            submitButton.disabled = false;
-        }, 1500);
-    });
-}
 
 // Intersection Observer for fade-in animations
 const observerOptions = {
