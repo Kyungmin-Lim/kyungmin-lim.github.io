@@ -704,14 +704,27 @@ body {
         max-width: 100%;
     }
 
+    .projects {
+        padding: 60px 0;
+    }
+
+    .projects .container {
+        padding: 0;
+    }
+
     .projects-grid {
         grid-template-columns: 1fr;
+        gap: 1.5rem;
+        margin-top: 2rem;
+        padding: 0 20px;
     }
 
     .project-card {
         width: 100%;
         max-width: 100%;
         overflow: hidden;
+        margin: 0;
+        box-sizing: border-box;
     }
 
     .project-image {
@@ -720,6 +733,7 @@ body {
         height: 200px;
         overflow: hidden;
         position: relative;
+        box-sizing: border-box;
     }
 
     .project-img {
@@ -729,6 +743,8 @@ body {
         min-width: 0;
         object-fit: cover;
         object-position: center;
+        box-sizing: border-box;
+        display: block;
     }
 
     .section-title {
