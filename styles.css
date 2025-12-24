@@ -576,7 +576,6 @@ body {
     background: var(--bg-primary);
     border-radius: 12px;
     box-shadow: var(--shadow-md);
-    text-align: center;
     transition: var(--transition);
     display: flex;
     flex-direction: row;
@@ -603,7 +602,7 @@ body {
     text-decoration: none;
     font-size: 0.95rem;
     transition: var(--transition);
-    word-break: break-all;
+    white-space: nowrap;
     font-weight: 500;
 }
 
