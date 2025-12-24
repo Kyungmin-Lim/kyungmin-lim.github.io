@@ -559,21 +559,20 @@ body {
 }
 
 .contact-wrapper {
-    max-width: 800px;
+    max-width: 500px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
 }
 
 .contact-info {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
+    display: flex;
+    justify-content: center;
     width: 100%;
 }
 
 .contact-item {
-    padding: 2rem;
+    padding: 2.5rem;
     background: var(--bg-primary);
     border-radius: 16px;
     box-shadow: var(--shadow-md);
@@ -583,6 +582,8 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+    width: 100%;
+    max-width: 450px;
 }
 
 .contact-item:hover {
@@ -698,13 +699,14 @@ body {
         font-size: 2rem;
     }
 
-    .contact-info {
-        grid-template-columns: 1fr;
-        gap: 1.5rem;
+    .contact-wrapper {
+        max-width: 100%;
+        padding: 0 20px;
     }
 
     .contact-item {
         padding: 1.5rem;
+        max-width: 100%;
     }
 
     .skills-grid {
