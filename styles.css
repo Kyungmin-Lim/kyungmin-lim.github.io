@@ -154,8 +154,35 @@ body {
 .hero-subtitle {
     font-size: 1.25rem;
     color: var(--text-secondary);
-    margin-bottom: 2rem;
+    margin-bottom: 1.25rem;
     animation: fadeInUp 0.8s ease 0.2s both;
+}
+
+.social-icons {
+    display: flex;
+    gap: 1.25rem;
+    margin-bottom: 2rem;
+    animation: fadeInUp 0.8s ease 0.3s both;
+}
+
+.social-icons a {
+    color: var(--text-secondary);
+    font-size: 1.5rem;
+    transition: var(--transition);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--bg-secondary);
+}
+
+.social-icons a:hover {
+    color: var(--primary-color);
+    transform: translateY(-3px);
+    background: rgba(102, 126, 234, 0.1);
 }
 
 .hero-image {
@@ -645,6 +672,18 @@ body {
 
     .hero-subtitle {
         font-size: 1.1rem;
+    }
+
+    .social-icons {
+        justify-content: center;
+        gap: 0.75rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .social-icons a {
+        font-size: 1.25rem;
+        width: 36px;
+        height: 36px;
     }
 
     .hero-image {
