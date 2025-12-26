@@ -4,25 +4,25 @@
   "description": "Kyungmin Lim's Personal Website",
   "icons": [
     {
-      "src": "KMLim_Logo.png",
+      "src": "images/KMLim_Logo.png",
       "sizes": "16x16",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "KMLim_Logo.png",
+      "src": "images/KMLim_Logo.png",
       "sizes": "32x32",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "KMLim_Logo.png",
+      "src": "images/KMLim_Logo.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "KMLim_Logo.png",
+      "src": "images/KMLim_Logo.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"

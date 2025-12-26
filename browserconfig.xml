@@ -2,7 +2,7 @@
 <browserconfig>
     <msapplication>
         <tile>
-            <square150x150logo src="KMLim_Logo.png"/>
+            <square150x150logo src="images/KMLim_Logo.png"/>
             <TileColor>#000000</TileColor>
         </tile>
     </msapplication>
