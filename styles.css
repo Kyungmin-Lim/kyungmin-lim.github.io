@@ -152,7 +152,7 @@ body {
 }
 
 .hero-subtitle {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     color: var(--text-secondary);
     margin-bottom: 1.25rem;
     animation: fadeInUp 0.8s ease 0.2s both;
@@ -258,10 +258,10 @@ body {
 }
 
 .hero-description {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: var(--text-secondary);
-    margin-bottom: 2rem;
-    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
     animation: fadeInUp 0.8s ease 0.3s both;
 }
 
@@ -784,4 +784,3 @@ body {
         font-size: 0.9rem;
     }
 }
-
