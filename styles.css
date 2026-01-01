@@ -158,6 +158,12 @@ body {
     animation: fadeInUp 0.8s ease 0.2s both;
 }
 
+.subtitle-company {
+    font-size: 1rem;
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
 .social-icons {
     display: flex;
     gap: 1.25rem;
@@ -258,7 +264,7 @@ body {
 }
 
 .hero-description {
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: var(--text-secondary);
     margin-bottom: 1.5rem;
     line-height: 1.6;
